@@ -1,0 +1,31 @@
+.card-product {
+  & p {
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  & img {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #22262A;
+  &__brand {
+    font-weight: 300;
+  }
+  &__name {
+    font-weight: 600;
+  }
+  &__price {
+    font-weight: normal;
+    &--old {
+      text-decoration: line-through;
+      margin-right: 30px;
+    }
+    &--new {
+      color: #cf2929;
+    }
+  }
+}

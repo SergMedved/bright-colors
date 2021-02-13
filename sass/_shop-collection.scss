@@ -1,0 +1,44 @@
+.shop-collection {
+  font-family: Poppins;
+  font-style: normal;
+  color: #22262A;
+  background: url('/img/shop-collection.jpg') no-repeat center #e7f5f8;
+  &__content {
+    padding: 425px 0 120px;
+  }
+  & h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  & h1 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+  }
+  &__btn {
+    display: block;
+    width: 214px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 18px;
+    background: #22262A;
+    color: #fff;
+    text-align: center;
+    padding-top: 4px;
+    margin-right: 35px;
+    &:hover {
+      text-decoration: none;
+      color: #111;
+      background: #aaa;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .shop-collection {
+    & h1 {
+      font-size: 45px;
+    }
+  }
+}

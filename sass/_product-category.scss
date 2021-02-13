@@ -1,0 +1,22 @@
+.product-category {
+  font-family: Poppins;
+  font-style: normal;
+  margin-bottom: 111px;
+  & h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22262A;
+  }
+  & h4 {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #22262A;
+  }
+  &__card-wrap {
+    margin-top: 65px;
+  }
+}

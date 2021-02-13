@@ -1,0 +1,74 @@
+.avone-styles {
+  font-family: Poppins;
+  font-style: normal;
+  color: #22262A;
+  margin-bottom: 111px;
+  & h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+  & h4 {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+
+  }
+  &__right-column {
+    position: relative;
+    height: 688px;
+    margin-top: 55px;
+  }
+  &__text {
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    border-bottom: 1px solid #22262A;
+    padding-bottom: 3px;
+  }
+  &__image-1 {
+    width: 100%;
+  }
+  &__image-2 {
+    width: 95%;
+  }
+  &__image-3 {
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    bottom: 0;
+    padding: 22px 0 0 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .avone-styles {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .avone-styles {
+    &__right-column {
+      height: 550px;
+    }
+    &__text {
+      z-index: 999;
+      background: #fff;
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .avone-styles {
+    &__right-column {
+      height: 410px;
+    }
+    &__image-3 {
+      width: 50%;
+    }
+  }
+}
